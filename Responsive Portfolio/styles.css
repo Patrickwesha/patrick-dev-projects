@@ -169,6 +169,15 @@ nav .right a span {
     .hero-section .headshot img {
         width: 300px;
     }
+    /* Section 2 - Skills */
+    .skills-section {
+        padding: 0 20px;
+
+    }
+    .skills-section .cells .cell span {
+        font-size: 16px;
+    }
+
 }
 
 @media (max-width: 600px) {
