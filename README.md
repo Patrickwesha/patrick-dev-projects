@@ -49,6 +49,6 @@ I'm Patrick Kwesha, a dedicated self-learner transitioning into tech. I believe 
 ## 📬 Contact
 
 - 📧 Email: patrickkwesha@gmail.com  
-- 💼 LinkedIn: [linkedin.com/in/patrickkwesha](https://www.linkedin.com/in/patrickkwesha)
+- 💼 LinkedIn: [[linkedin.com/in/patrickkwesha](https://www.linkedin.com/in/patrick-kwesha-156b7825b/)
 
 > “Look good, feel good. Feel good, code good.” – Me 💻✨
