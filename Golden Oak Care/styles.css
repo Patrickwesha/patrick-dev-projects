@@ -1,0 +1,268 @@
+:root {
+  --gold: #D4A838;
+  --brown: #5C3B1E;
+  --light-cream: #FDF9F3;
+  --warm-gray: #A17C5B;
+  --soft-gold-hover: #C79C32;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--light-cream);
+  color: var(--brown);
+  padding: 25px 200px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+button {
+  background-color: var(--gold);
+}
+
+button:hover {
+  background-color: var(--soft-gold-hover);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+    gap: 20px;
+}
+
+nav .left {
+    display: flex;
+    align-items: center;
+}
+
+nav .right {
+  display: flex;
+  gap: 30px; /* controls spacing between links */
+}
+
+nav .right a {
+  text-decoration: none;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: var(--light-cream);
+  margin-bottom: 100px;
+}
+
+.hero-text, .hero-image {
+  flex: 1;
+}
+
+.hero-text .contact-button {
+  display: inline-block;
+  background-color: var(--gold);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.hero-text .contact-button:hover {
+  background-color: var(--soft-gold-hover);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--brown);
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Service Section */
+.services {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: var(--light-cream);
+  margin-bottom: 100px;
+}
+
+.services-text
+{
+  flex: 1;
+}
+
+.services-text h1 {
+  font-size: 2.5rem;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+
+.services-link {
+  align-self: flex-end;
+}
+
+.services-link a {
+  display: inline-block;
+  background-color: var(--gold);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.services-link a:hover {
+  background-color: var(--soft-gold-hover);
+}
+
+.services-columns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: var(--light-cream);
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.services-columns img {
+  border-radius: 125px;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: var(--light-cream);
+  margin-bottom: 100px;
+}
+
+.about-text, .about-image {
+  flex: 1;
+}
+
+.about-text .about-link {
+  display: inline-block;
+  background-color: var(--gold);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.about-text .about-link:hover {
+  background-color: var(--soft-gold-hover);
+}
+
+.about h1 {
+  font-size: 2.5rem;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--brown);
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Contact Section */
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: var(--light-cream);
+  margin-bottom: 100px;
+}
+
+.contact-text {
+  flex: 3;
+}
+
+.contact-image {
+  flex: 7;
+}
+
+.contact-text .contact-link {
+  display: inline-block;
+  background-color: var(--gold);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-text .contact-link:hover {
+  background-color: var(--soft-gold-hover);
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--brown);
+}
+
+.contact-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  color: rgb(0, 0, 0);
+  text-align: left;
+  padding: 1rem;
+}
+
+h1, h2 {
+  color: var(--brown);
+}
